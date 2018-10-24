@@ -1,11 +1,27 @@
-html {
-    background-image: url(fon.jpg);
+body {
+    width: 1350px;
+    margin: 0;
 }
 
 header {
-    background-image: url(fon.jpg);
     display: flex;
+    background-image: url(fon.jpg);
+    background-repeat: no-repeat;
 }
+
+.index-text {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    font-family: ErasLightC;
+    background-color: white;
+}
+
+.opportunities, .company, .how {
+    width: 30%;
+    padding-top: 40px;
+}
+
 
 .link {
     text-decoration: none;
@@ -24,6 +40,28 @@ header {
     text-align: center;
     font-size: 20px;
     font-family: ErasDemiC;
+    padding-top: 20px;
+}
+
+.info {
+    text-align: center;
+    font-family: ErasLightC;
+    padding-left: 19%;
+    padding-right: 19%;
+}
+
+.item-info {
+    padding: 10px 0px 20px 0px;
+}
+
+.leftimg{
+    float: left;
+    margin: 7px 7px 7px 0;
+}
+
+.rightimg {
+    float: right;
+    margin: 7px 0 7px 7px;
 }
 
 .item_head {
@@ -39,18 +77,26 @@ header {
     background-image: url(fon1.jpg);
     display: flex; 
     justify-content: space-between;
-    margin: 10px;
     padding: 10px; 
 }
 main {
     background-color: wheat;
     display: flex; 
     justify-content: space-between;
-    margin: 10px;
-    padding: 10px;
 }
 
 .categorii {
+    overflow: visible;
+    margin: 5px; 
+    padding: 5px;
+    font-size: 18px;
+    font-family: ErasLightC;
+    position: fixed;
+    top: 150px;
+    width: 200px;
+}
+
+.categori {
     overflow: visible;
     margin: 5px; 
     padding: 5px;
@@ -63,7 +109,7 @@ main {
     justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
-    margin-left: 10%;
+    margin-left: 25%;
     margin-right: 10%;
 }
 
@@ -85,6 +131,10 @@ main {
 
 footer {
     color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    background-image: url(fon.jpg);
 }
 
 .all {
@@ -97,4 +147,11 @@ footer {
     flex-wrap: wrap;
     margin: 10px; 
     padding: 10px;
+}
+
+.info-contact {
+    display: flex;
+    text-align: center;
+    height: 275px;
+    margin: 200px auto auto auto;
 }
